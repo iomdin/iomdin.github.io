@@ -4,6 +4,6 @@
 
 Welcome to the **Iomdin** family's official website!
 
-* [Leonid Iomdin (1947–2024)](leonid.iomdin.com)
-* [Boris Iomdin (1976)](boris.iomdin.com)
-* [Misha Iomdin (2007)](boris.iomdin.com)
+* [Leonid Iomdin (1947–2024)](https://leonid.iomdin.com)
+* [Boris Iomdin (1976)](https://boris.iomdin.com)
+* [Misha Iomdin (2007)](https://misha.iomdin.com)
