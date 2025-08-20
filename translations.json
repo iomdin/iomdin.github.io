@@ -1,0 +1,25 @@
+{
+    "en": {
+        "titleBrowser": "Iomdin",
+        "titleText": "Iomdin",
+        "iomdin": "iomdin.com",
+        "aboutTitle": "About",
+        "aboutExplanation": "Welcome to the Iomdin family's official website!",
+        "familyTitle": "Family",
+        "LeonidIomdin": "Leonid Iomdin",
+        "BorisIomdin": "Boris Iomdin",
+        "MishaIomdin": "Misha Iomdin"
+    },
+
+    "ru": {
+        "titleBrowser": "Иомдин",
+        "titleText": "Иомдин",
+        "iomdin": "iomdin.com",
+        "aboutTitle": "О нас",
+        "aboutExplanation": "Добро пожаловать на официальный сайт семьи Иомдиных!",
+        "familyTitle": "Семья",
+        "LeonidIomdin": "Леонид Иомдин",
+        "BorisIomdin": "Борис Иомдин",
+        "MishaIomdin": "Миша Иомдин"
+    }
+}
