@@ -1,6 +1,11 @@
-# Iomdin
+---
+layout: mylayout
+title: iomdin.com
+favicon: "/images/IOM.png"
+logo: "/images/Iomdins2018.jpg"
+---
 
-![](/images/Iomdins2018.jpg)
+# Iomdin
 
 Welcome to the **Iomdin** family's official website!
 

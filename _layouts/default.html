@@ -1,0 +1,31 @@
+<!-- default layout-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title | default: site.title }}</title>
+
+  {% if page.favicon %}
+    <link rel="icon" href="{{ page.favicon | relative_url }}">
+  {% elsif site.favicon %}
+    <link rel="icon" href="{{ site.favicon | relative_url }}">
+  {% endif %}
+
+  <link rel="stylesheet" href="{{ '/styles/style.css' | relative_url }}">
+</head>
+<body>
+  <header>
+    {% if page.logo %}
+      <img src="{{ page.logo | relative_url }}" alt="Logo" class="site-logo">
+    {% elsif site.logo %}
+      <img src="{{ site.logo | relative_url }}" alt="Logo" class="site-logo">
+    {% endif %}
+    <h1>{{ page.title | default: site.title }}</h1>
+  </header>
+
+  <main>
+    {{ content }}
+  </main>
+</body>
+</html>
