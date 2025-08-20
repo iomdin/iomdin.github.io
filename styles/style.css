@@ -1,7 +1,64 @@
 /* STYLE FOR iomdin.com */
 
+/* OVERALL */
+
+/* BUTTONS */
+button {
+  background-color: #e4edff;
+  border-radius: 10px;
+  border: 0px;
+  color: black;
+}
+
+button:hover {
+  background-color: #b2c9f6;
+}
+
+.chosen_button {
+  background-color: white;
+}
+
+/* MENU */
+.menu {
+  background-color: #dfe2e5;
+  position: sticky;
+  top: 0;
+  padding: 10px;
+}
+
+.menu_row {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap; /* Breaks to next line if too long */
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
 .logo {
   max-height: 60px;
   height: auto;
   width: auto;
+}
+
+
+/* TABLE */
+
+th {
+  background-color: #e4edff;
+}
+
+/* GRAMMAR */
+
+end {
+  color: red;
+}
+
+/* RTL LANGUAGES */
+rtl {
+  direction: rtl;
+}
+
+.hebrew {
+    direction: rtl;
+    text-align: right;
 }
