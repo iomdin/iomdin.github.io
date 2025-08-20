@@ -75,26 +75,60 @@ body {
 
 /* HEADER */
 
-sticky_header {
-  background-color: #f4f7f6;
-  position: sticky;
-  top: 0;
-
+header {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding-left: 10px;
   padding-right: 10px;
+  box-shadow: none;
+}
+
+.website_header {
+  background-color: #f4f7f6;
+}
+
+.page_header {
+  background-color: #b2c9f6;
+}
+
+/* HEADER FOR WIDE (TABLETS, DESKTOPS) */
+@media (min-width: 850px) {
+  .page_header {
+    max-width: 800px;
+    margin: 2rem auto;
+    margin-top: 0rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
 }
 
 
-header {
-  background-color: #b2c9f6;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding-left: 10px;
-  padding-right: 10px;
+
+/* MAIN */
+
+main {
+  background-color: white;
+  box-shadow: none;
+  margin: 0;
+  padding: 1rem;
+}
+
+/* MAIN FOR WIDE (TABLETS, DESKTOPS) */
+@media (min-width: 850px) {
+  body {
+    background-color: #f4f7f6;
+  }
+
+  main {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
 }
 
 .logo {
