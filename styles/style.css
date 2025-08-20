@@ -19,19 +19,12 @@ button:hover {
 }
 
 /* MENU */
-.menu {
-  background-color: #dfe2e5;
-  position: sticky;
+.header {
   top: 0;
   padding: 10px;
-}
-
-.menu_row {
   display: flex;
   gap: 10px;
-  flex-wrap: wrap; /* Breaks to next line if too long */
-  margin-top: 5px;
-  margin-bottom: 5px;
+  flex-wrap: wrap;
 }
 
 .logo {
