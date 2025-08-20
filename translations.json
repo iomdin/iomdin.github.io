@@ -21,5 +21,29 @@
         "LeonidIomdin": "Леонид Иомдин",
         "BorisIomdin": "Борис Иомдин",
         "MishaIomdin": "Миша Иомдин"
+    },
+
+    "de": {
+        "titleBrowser": "Iomdin",
+        "titleText": "Iomdin",
+        "iomdin": "iomdin.com",
+        "aboutTitle": "Über uns",
+        "aboutExplanation": "Herzlich willkommen auf der offiziellen Website der Familie Iomdin!",
+        "familyTitle": "Familie",
+        "LeonidIomdin": "Leonid Iomdin",
+        "BorisIomdin": "Boris Iomdin",
+        "MishaIomdin": "Misha Iomdin"
+    },
+
+    "he": {
+        "titleBrowser": "יומדין",
+        "titleText": "יומדין",
+        "iomdin": "iomdin.com",
+        "aboutTitle": "עלינו",
+        "aboutExplanation": "!ברוכים הבאים לאתר הרשמי של משפחת יומדין",
+        "familyTitle": "המשפחה",
+        "LeonidIomdin": "לאוניד יומדין",
+        "BorisIomdin": "בוריס יומדין",
+        "MishaIomdin": "מיכאל יומדין"
     }
 }
