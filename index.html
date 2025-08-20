@@ -1,0 +1,106 @@
+<!--
+Project name: iomdin.com
+Started on: 20.08.2025
+by @mishaiomdin
+
+
+index.html
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title id="titleBrowser">Iomdin</title>
+
+    <!-- LIBRARIES -->
+
+    <!-- KaTeX -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.css" integrity="sha384-5TcZemv2l/9On385z///+d7MSYlvIEw9FuZTIdZ14vJLqWphw7e7ZPuOiCHJcFCP" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.js" integrity="sha384-cMkvdD8LoxVzGF/RPUKAcvmm49FQ0oxwDF3BGKtDXcEc+T1b2N+teh/OJfpU0jr6" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/contrib/auto-render.min.js" integrity="sha384-hCXGrW6PitJEwbkoStFjeJxv+fSOOQKOPbJxSfM6G5sWZjAyWhXiTIIAmQqnlLlh" crossorigin="anonymous"
+        onload="renderMathInElement(document.body);"></script>
+
+    <!-- STYLESHEET -->
+    <link rel="stylesheet" href="styles/style.css">
+
+    <!-- FAVICON -->
+    <link rel="shortcut icon" type="image/x-icon" href="images/IOM.png">
+</head>
+<body>
+
+    <header>
+        <!-- Path to website -->
+        <p class="icon-text">
+        
+            <!-- Iomdin -->
+            <span class="material-symbols-outlined">home</span>
+            <a href="https://iomdin.com/" target="_blank" id="iomdin">iomdin.com</a>
+    
+        </p>
+    
+        <!-- Language selector -->
+        <span class="icon-text" id="languageSelectorWrapper">
+            <span class="material-symbols-outlined">language</span>
+            <select id="languageSelector" onchange="changeLanguage();">
+                <option value="en">English</option>
+                <option value="ru">Русский</option>
+            </select>
+        </span>
+    </header>
+
+    <header>
+        <h1 class="icon-text">
+            <span class="logo" style="height: 70px;">
+                <!-- Logo: animated emoji -->
+                <img class="logo" src="/images/Iomdins2018.jpg" alt="">
+            </span>
+            <span id="titleText">Iomdin</span>
+        </h1>
+    </header>
+
+    <main>
+        <!-- Welcome!-->
+        <div id="about">
+            <h2 class="icon-text">
+                <span class="material-symbols-outlined">group</span>
+                <span id="aboutTitle">About</span>
+            </h2>
+            <p id="aboutExplanation">
+                Welcome to the Iomdin family's official website!
+            </p>
+        </div>
+
+        <!-- Welcome!-->
+        <div id="family">
+            <h2 class="icon-text">
+                <span class="material-symbols-outlined">family_history</span>
+                <span id="familyTitle">Family</span>
+            </h2>
+            <p id="familyExplanation">
+                <ul>
+                    <li>
+                        <a href="https://leonid.iomdin.com/" target="_blank">Leonid Iomdin</a> (1947–2024)
+                        <ul>
+                            <li>
+                                <a href="https://boris.iomdin.com/" target="_blank">Boris Iomdin</a> (1976)
+                                <ul>
+                                    <li><a href="https://misha.iomdin.com/" target="_blank">Misha Iomdin</a> (2007)</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                
+            </p>
+        </div>
+
+
+    </main>
+
+    <!-- Main script -->
+    <script src="scripts/script.js"></script>
+</body>
+</html>
