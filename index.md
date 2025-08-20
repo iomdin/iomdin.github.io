@@ -1,6 +1,7 @@
 ---
 layout: mylayout
-title: iomdin.com
+title: Iomdin
+header: Iomdin
 favicon: "/images/IOM.png"
 logo: "/images/Iomdins2018.jpg"
 ---

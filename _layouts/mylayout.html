@@ -17,9 +17,9 @@
 <body>
   <header>
     {% if page.logo %}
-      <img src="{{ page.logo | relative_url }}" alt="Logo" class="site-logo">
+      <img src="{{ page.logo | relative_url }}" alt="Logo" class="logo">
     {% elsif site.logo %}
-      <img src="{{ site.logo | relative_url }}" alt="Logo" class="site-logo">
+      <img src="{{ site.logo | relative_url }}" alt="Logo" class="logo">
     {% endif %}
     <h1>{{ page.title | default: site.title }}</h1>
   </header>
