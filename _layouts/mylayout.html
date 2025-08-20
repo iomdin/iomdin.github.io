@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <!-- title -->
+    <title>{{ page.title | default: site.title }}</title>
+
     <!-- favicon -->
     {% if page.favicon %}
       <link rel="icon" href="{{ page.favicon | relative_url }}">
@@ -33,7 +36,7 @@
         {% elsif site.logo %}
           <img src="{{ site.logo | relative_url }}" alt="Logo" class="logo">
         {% endif %}
-        <h1>{{ page.header | default: site.title }}</h1>
+        <p>{{ page.header | default: site.title }}</p>
       </header>
       <div id="main">
         {{ content }}
