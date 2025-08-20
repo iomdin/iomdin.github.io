@@ -7,7 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="/languages/logo.png">
+    {% if page.favicon %}
+      <link rel="icon" href="{{ page.favicon | relative_url }}">
+    {% elsif site.favicon %}
+      <link rel="icon" href="{{ site.favicon | relative_url }}">
+    {% endif %}
 
     <!-- Jekyll stuff -->
 
@@ -37,25 +41,14 @@
   <body>
     <div class="container-lg px-3 my-5 markdown-body" style="margin-top: 0px !important">
 
-      <!-- MENU -->
-      <div class="menu">
-
-        <div class="menu_row">
-
-          <a href="{{ "/" | absolute_url }}">
-            <img class="logo" src="/images/Iomdins2018.png"
-            style="background-color: transparent;">
-          </a>
-
-          <!-- title "languages" -->
-          <a href="{{ "/" | absolute_url }}">Languages</a>
-
-        </div>
-
-      </div>
-
-      
-
+      <header>
+        {% if page.logo %}
+          <img src="{{ page.logo | relative_url }}" alt="Logo" class="logo">
+        {% elsif site.logo %}
+          <img src="{{ site.logo | relative_url }}" alt="Logo" class="logo">
+        {% endif %}
+        <h1>{{ page.header | default: site.title }}</h1>
+      </header>
       {{ content }}
     </div>
     <script>anchors.add();</script>
