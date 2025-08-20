@@ -26,8 +26,6 @@
   </head>
 
   <body>
-    <div class="container-lg px-3 my-5 markdown-body" style="margin-top: 0px !important">
-
       <header>
         {% if page.logo %}
           <img src="{{ page.logo | relative_url }}" alt="Logo" class="logo">
@@ -36,8 +34,8 @@
         {% endif %}
         <h1>{{ page.header | default: site.title }}</h1>
       </header>
-      {{ content }}
-    </div>
-    <script>anchors.add();</script>
+      <div id="main">
+        {{ content }}
+      </div>
   </body>
 </html>
