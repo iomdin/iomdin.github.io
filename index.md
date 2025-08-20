@@ -1,5 +1,5 @@
 ---
-layout: main
+layout: mylayout
 title: iomdin.com
 favicon: "/images/IOM.png"
 logo: "/images/Iomdins2018.jpg"
