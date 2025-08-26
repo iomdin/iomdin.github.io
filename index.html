@@ -12,6 +12,12 @@ index.html
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Iomdin">
+    <meta property="og:description" content="The Iomdin family's official website">
+    <meta property="og:url" content="https://iomdin.com/">
+    <meta property="og:image" content="https://iomdin.com/images/Iomdins2018.jpg">
+    <meta property="og:type" content="website">
+    <meta name="twitter:image" content="https://iomdin.com/images/Iomdins2018.jpg">
 
     <title id="titleBrowser">Iomdin</title>
 
@@ -23,17 +29,22 @@ index.html
     <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/contrib/auto-render.min.js" integrity="sha384-hCXGrW6PitJEwbkoStFjeJxv+fSOOQKOPbJxSfM6G5sWZjAyWhXiTIIAmQqnlLlh" crossorigin="anonymous"
         onload="renderMathInElement(document.body);"></script>
 
-    <!-- STYLESHEET -->
-    <link rel="stylesheet" href="styles/style.css">
+    <!-- STYLESHEETS -->
+    <link rel="stylesheet" href="styles/main.css">
+
+    <link rel="stylesheet" href="styles/buttons.css">
+    <link rel="stylesheet" href="styles/code.css">
+    <link rel="stylesheet" href="styles/events.css">
+    <link rel="stylesheet" href="styles/font.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/icons.css">
+    <link rel="stylesheet" href="styles/input.css">
+    <link rel="stylesheet" href="styles/lists.css">
+    <link rel="stylesheet" href="styles/table.css">
+    <link rel="stylesheet" href="styles/text.css">
 
     <!-- FAVICON -->
-    <link rel="shortcut icon" type="image/x-icon" href="images/IOM.png">
-
-    <!-- Family tree -->
-    <script src="https://d3js.org/d3.v4.min.js"></script>
-	<script src="https://cdn.jsdelivr.net/lodash/4.17.4/lodash.min.js"></script>
-	<script src="https://cdn.rawgit.com/ErikGartner/dTree/master/dist/dTree.min.js"></script>
-    <script src="https://balkan.app/js/FamilyTree.js"></script>
+    <link rel="shortcut icon" type="image/x-icon" href="images/icons/IOM.png">
 </head>
 <body>
 
@@ -41,15 +52,15 @@ index.html
         <!-- Path to website -->
         <p class="icon-text">
         
-            <!-- Iomdin -->
-            <span class="material-symbols-outlined">home</span>
-            <a href="https://iomdin.com/" id="iomdin">iomdin.com</a>
+            <!-- iomdin.com -->
+            <a href="/"><img src="images/icons/home.svg" class="icon"></a>
+            <a href="/" id="iomdin.com">iomdin.com</a>
     
         </p>
     
         <!-- Language selector -->
         <span class="icon-text" id="languageSelectorWrapper">
-            <i class="material-icons">language</i>
+            <img src="images/icons/language.svg" class="icon">
             <select id="languageSelector" onchange="changeLanguage();">
                 <option value="en">English</option>
                 <option value="ru">Русский</option>
@@ -59,21 +70,19 @@ index.html
         </span>
     </header>
 
+    <!-- Page header -->
     <header class="page_header">
         <h1 class="icon-text">
-            <span class="logo" style="height: 70px;">
-                <!-- Logo: animated emoji -->
-                <img class="logo" src="/images/Iomdins2018.jpg" alt="">
-            </span>
+            <img src="/images/icons/IOM.png" class="big-icon">
             <span id="titleText">Iomdin</span>
         </h1>
     </header>
 
     <main>
-        <!-- Welcome!-->
+        <!-- About -->
         <div id="about">
             <h2 class="icon-text">
-                <span class="material-symbols-outlined">group</span>
+                <img src="images/icons/people.svg" class="icon">
                 <span id="aboutTitle">About</span>
             </h2>
             <p id="aboutExplanation">
@@ -81,10 +90,10 @@ index.html
             </p>
         </div>
 
-        <!-- Welcome!-->
+        <!-- Welcome! -->
         <div id="family">
             <h2 class="icon-text">
-                <span class="material-symbols-outlined">family_history</span>
+                <img src="images/icons/family.svg" class="icon">
                 <span id="familyTitle">Family</span>
             </h2>
             <p id="familyExplanation">

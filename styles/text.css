@@ -1,0 +1,28 @@
+/* text.css */
+ /* Text size, color, display */ 
+
+* {
+    color: #000000;
+    font-size: 1em;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 1.25em;
+}
+
+/* Default is LTR, nothing special */
+body.rtl,
+body.rtl table,
+body.rtl td,
+body.rtl th {
+    direction: rtl;
+    text-align: right;
+}

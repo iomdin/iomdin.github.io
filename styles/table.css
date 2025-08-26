@@ -1,0 +1,18 @@
+/* table.css */
+/* Table, td, th */
+
+
+table, td, th {
+  border: 1px solid #dfe2e5;
+  border-collapse: collapse;
+  padding: 8px;
+}
+
+table {
+  display: block;
+  overflow-x: auto;
+  border: 0px;
+}
+
+/* Alternating white-gray rows */
+tr:nth-child(even) {background-color: #f6f8fa;}

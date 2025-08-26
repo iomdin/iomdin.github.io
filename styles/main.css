@@ -1,0 +1,30 @@
+/* main.css */
+/* Main page element */
+
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+  background-color: white;
+  box-shadow: none;
+  margin: 0;
+  padding: 1rem;
+}
+
+/* MAIN FOR WIDE (TABLETS, DESKTOPS) */
+@media (min-width: 850px) {
+  body {
+    background-color: #f4f7f6;
+  }
+
+  main {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+}
