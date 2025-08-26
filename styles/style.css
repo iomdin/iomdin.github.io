@@ -312,3 +312,25 @@ code {
 th {
   background-color: #e4edff;
 }
+
+.linage {
+  fill: none;
+  stroke: #000;
+}
+
+.marriage {
+  fill: none;
+  stroke: black;
+}
+
+.man {
+  background-color: lightblue;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.woman {
+  background-color: pink;
+  border-style: solid;
+  border-width: 1px;
+}
