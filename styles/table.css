@@ -14,5 +14,10 @@ table {
   border: 0px;
 }
 
+th {
+  background-color: #e4edff;
+}
+
 /* Alternating white-gray rows */
+tr:nth-child(odd) {background-color: #ffffff;}
 tr:nth-child(even) {background-color: #f6f8fa;}
